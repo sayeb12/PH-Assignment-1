@@ -147,7 +147,7 @@ header{
 }
 
 .feedback{
-    margin: 137px 151px;
+    margin: 0 151px;
 }
 
 .card-title{
@@ -174,6 +174,34 @@ header{
     font-weight: 140px;
     font-size: 16px;
     color: #B3B3B3;
+}
+
+/* Get Started Styles */
+.get-started-title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.get-started-text{
+    font-weight: 140px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.get-started-image{
+    height: 364.77px;
+    width: 840px;
+    border-radius:  48px;
+    margin-top: auto20px;
+}
+.get-started{
+    text-align: center;
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    margin: 0 150px 137px 150px;
 }
 
 
