@@ -201,8 +201,36 @@ header{
     text-align: center;
     padding: 71px 150px;
     background-color: #FFFFFF;
-    margin: 0 150px 137px 150px;
+    margin: 0 150px 0px 150px;
 }
+
+/* Get in touch styles */
+.get-in-touch{
+    display: flex;
+    gap: 115px;
+    width: 50%;
+    margin: 0 150px 14px 150px;
+}
+
+.get-in-touch-title{
+    margin-top: 150px;
+
+}
+
+.get-in-touch-form input,
+.get-in-touch-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.get-in-touch-form input[type="button"]{
+    width: 100%;
+}
+
 
 
 
