@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+/* body styles */
+body{
+    background-color: #eef2ff;
+}
+
+
 /* Shared Styles */
 .btn-primary{
     font-weight: 700;
@@ -14,6 +20,10 @@
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #a7a726;
 }
 
 /* Nav Bar Styles */
@@ -201,7 +211,7 @@ header{
     text-align: center;
     padding: 71px 150px;
     background-color: #FFFFFF;
-    margin: 0 150px 0px 150px;
+    margin: 137px 150px 0px 150px;
 }
 
 /* Get in touch styles */
@@ -285,7 +295,5 @@ footer{
     background-color: white;
 }
 
-body{
-    background-color: #eef2ff;
-}
+
 
