@@ -205,32 +205,39 @@ header{
 }
 
 /* Get in touch styles */
-.get-in-touch{
+.get-in-touch {
     display: flex;
-    gap: 115px;
-    width: 50%;
-    margin: 0 150px 14px 150px;
+    justify-content: space-around;
+    width: 70%;
+    margin: 50px auto;
+    gap: 50px; 
 }
 
-.get-in-touch-title{
-    margin-top: 150px;
-
+.get-in-touch-title {
+    font-size: 97px; 
+    font-weight: 700; 
+    color: #000000;
+    margin-top: 200; 
 }
 
-.get-in-touch-form input,
+.get-in-touch-form label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    display: block; 
+}
+
+.get-in-touch-form input[type="text"] ,
+.get-in-touch-form input[type="email"] ,
 .get-in-touch-form textarea {
-    width: 100%;
-    padding: 10px;
+    width: 400px;
+    padding: 20px 32px; 
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    border-radius: 10px; 
+    font-size: 20px;
 }
 
-.get-in-touch-form input[type="button"]{
+.get-in-touch-form input[type="button"] {
     width: 100%;
 }
-
-
-
 
